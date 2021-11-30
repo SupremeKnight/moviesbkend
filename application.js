@@ -8,7 +8,7 @@ const commentRouter = require("./routes/MyCommentRouter")
 const path = require("path")
 const cors = require('cors')
 
-const PORT = 80;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(cors("*"))
