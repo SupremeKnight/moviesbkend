@@ -1,7 +1,6 @@
 const mongoose = require("mongoose")
 const userModel = require("../models/User")
 
-mongoose.connect('mongodb+srv://Anass:ANNASS-EVERY@cluster0.g2oli.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {autoIndex: false});
 
 
 function authenticate(req, resp) {

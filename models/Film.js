@@ -9,7 +9,7 @@ const filmSchema = new mongoose.Schema(
         release_date: String,
         overview: String,
         vote_average: Number,
-        isStarred: Boolean
+        isFav: Boolean
     }
 )
 
